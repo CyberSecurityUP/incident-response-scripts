@@ -15,7 +15,7 @@ for %%d in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
 
 :: Procurando processos TI-WORKER.exe, Anydesk.exe e TI.exe
 echo Procurando processos TI-WORKER.exe, Anydesk.exe e TI.exe... >> %LOGFILE%
-tasklist | find "TI-WORKER.exe" >> %LOGFILE%
+tasklist | find "TiWorker.exe" >> %LOGFILE%
 tasklist | find "Anydesk.exe" >> %LOGFILE%
 tasklist | find "TI.exe" >> %LOGFILE%
 
